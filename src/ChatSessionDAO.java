@@ -21,7 +21,7 @@ private ChatserverConnectionFactory conn;
 		
 	}
 	
-	public String getSessionsID() {
+	public String getSessionID() {
 		return null;
 	}
 	
