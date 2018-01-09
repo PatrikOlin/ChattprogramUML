@@ -4,6 +4,7 @@ public class ChatSession implements Chat {
 	
 	private List<User> users;
 	private List<Message> messages;
+	private static String sessionID;
 
 	@Override
 	public void addMessage(Message msg) {
