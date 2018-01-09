@@ -2,9 +2,9 @@ import java.sql.Connection;
 
 public class MessageDAO {
 
-	private Connection conn;
+	private ChatserverConnectionFactory conn;
 	
-	public MessageDAO(Connection conn) {
+	public MessageDAO(ChatserverConnectionFactory conn) {
 		
 	}
 	
